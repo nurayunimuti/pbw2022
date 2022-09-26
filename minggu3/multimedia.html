@@ -3,9 +3,15 @@
 	<head>
 		<title>Multimedia - HTML 5</title>
 	</head>
-	<body>
+	<body style="text-align:center">
 		<h2>Belajar Multimedia - HTML 5</h2>
 		<p>
+			<h2>videoku </h2>
+			<video width="420" id="myVideo">
+				<source src="video.mp4" type="video/mp4">
+				browser not support...
+			</video>
+			<br>
 		<button onclick="playVid()" type="button">Play Video</button>
 		<button onclick="pauseVid()" type="button">Pause Video</button>
 		<button onclick="durationVid()" type="button">Duration Video</button>
@@ -13,12 +19,14 @@
 		<button onclick="disableControls()" type="button">Disable controls</button>
 		<button onclick="checkControls()" type="button">Check controls status</button> 
 		<p>
+		<h2>YouTube </h2>
 		<iframe width="420" hright="315" src="https://www.youtube.com/embed/jKIusUOLspA"
-		</p>
-		<p>
-		<video width="420" id="myVideo">
-			<source src="video.mp4" type="video/mp4">
-		</video>
+		title="Youtube video player" frameborder="0" allow="accelerometer; autoplay;
+		clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+		></iframe>
+		<br>
+		</span>
+		<br>
 		</p>
 	</body>
 	<script>
