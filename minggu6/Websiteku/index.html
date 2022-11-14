@@ -7,6 +7,68 @@
 scale=1.0">
     <title>Contoh Project Pemrograman Website </title>
 </head>
+<style>
+	* {
+	  box-sizing: border-box;
+	}
+
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+
+	/* Style the header */
+	header {
+	  background-color: #666;
+	  padding: 30px;
+	  text-align: center;
+	  font-size: 35px;
+	  color: white;
+	}
+
+	/* Create two columns/boxes that floats next to each other */
+	nav {
+	  float: left;
+	  width: 25%;
+	  background: #fff;
+	  padding: 20px;
+	}
+
+	/* Style the list inside the menu */
+	nav ul {
+	  list-style-type: none;
+	  padding: 0;
+	}
+
+	article {
+	  float: left;
+	  padding: 20px;
+	  width: 75%;
+	  background-color: #f1f1f1;
+	}
+
+	/* Clear floats after the columns */
+	section::after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	/* Style the footer */
+	footer {
+	  background-color: #777;
+	  padding: 10px;
+	  text-align: center;
+	  color: white;
+	}
+
+	/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+	@media (max-width: 600px) {
+	  nav, article {
+		width: 100%;
+		height: auto;
+	  }
+	}
+	</style>
 
 <body>
     <nav>
@@ -47,8 +109,8 @@ sedang belajar HTML 5.
                 <tr> 
                     <td> 
                         <ul> 
-                            <li>Skill 1</li> 
-                            <li>Skill 2</li> 
+                            <li>Kerja sama tim</li> 
+                            <li>Mudah beradaptasi</li> 
                             <li>Skill 3</li> 
                         </ul> 
                     </td> 
