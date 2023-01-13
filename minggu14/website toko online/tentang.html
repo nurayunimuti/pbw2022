@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang</title>
+</head>
+<style>
+	* {
+	  box-sizing: border-box;
+	}
+
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	  background-image: url('bg2.jpg');
+	}
+
+	/* Style the header */
+	header {
+	  background: blanchedalmond;
+      color : white;
+	  padding: 30px;
+	  text-align: center;
+	  font-size: 15px;
+	  color: black;
+	}
+
+	/* Create two columns/boxes that floats next to each other */
+	nav {
+	  float: left;
+	  width: 25%;
+	  background-image: url('bg2.jpg');
+	  padding: 20px;
+	}
+
+	/* Style the list inside the menu */
+	nav ul {
+	  list-style-type: none;
+	  padding: 0;
+	}
+
+	article {
+	  float: left;
+	  padding: 20px;
+	  width: 65%;
+	  background-color: #f1f1f1;
+	}
+
+	/* Clear floats after the columns */
+	section::after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+	@media (max-width: 600px) {
+	  nav, article {
+		width: 100%;
+		height: auto;
+	  }
+	}
+	</style>
+
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="home.html">
+				<img src="home.png" alt="Home" style="width: 40px ;" class="rounded-pill"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapseibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="tentang.html">Tentang</a>
+					</li>
+					&nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="produk2.html">Produk</a>
+					</li>
+					&nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="kontak.html">kontak</a>
+					</li>
+					&nbsp;
+					<li class="nav-item">
+						<a class="navbar-brand" href="detail.html">
+							<img src="icon detail.webp" alt="Logo" style="width: 40px ;" class="rounded-pill">
+						</a>  
+					</li>
+					&nbsp;
+					<li class="nav-item">
+						<a class="navbar-brand" href="akun.html">
+							<img src="akun.png" alt="Logo" style="width: 40px ;" class="rounded-pill">\
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <hr />
+
+    <article>
+        <header style="text-align: center;"> 
+        <h1>Archie Cookies</h1>
+        </header>
+        <p> 
+            Kue Kue kering Archie Cookies adalah usaha keluarga Ibu Siti yang bermula di tahun 2019 lalu, 
+            semua resep disimpan dengan baik dan teliti,
+            sebelum di praktikkan ke produk-produk Archie Cookies supaya kualitas
+            dan rasa tetap terasa sempurna.
+        </p>
+        <p>
+            Bisnis Kue Kering Archie Cookies ini lahir dari 'keisengan' seorang ibu yang mencoba daftar kelas online
+            pastry & bakery setelah resign kerja dari perusahaan tempat ia bekerja sebelumnya. Mulai dari pesanan mulut ke mulut
+            sebatas lingkungan kerabat, kemudian dari aktif menawarkan produk lewat media sosial, hingga akhirnya banyak masyarakat 
+            yang mengenal Toko Kue Kering Archie Cookies.
+        </p>
+        <p>
+            Secara bisnis kita harus selalu berinovasi, harus mengikuti perkembangan teknologi industri makanan, 
+            agar setiap gigitan yang dinikmati oleh konsumen tetap terjaga kualitasnya,
+            kita juga harus menghadapi para pesaing yang terus bermunculan, harus mengantisipasi daya beli masyarakat yang
+            naik-turun, dan seterusnya.
+        </p>
+		<p>
+			Untuk Pemesanan bisa langsung mengeklik tautan link whatsApp, Instagram dan Facebook yang tertera pada kontak
+			dihalaman website. pesanan bisa menggunakan kurir yang kami sediakan, atau bisa juga melalui Gojek dan Grab.
+		</p>
+
+    </article> 
+ 
+    <br>
+	<footer style="text-align: right: ;"> 
+        <p>Copyright &copy; 2022 Nurayuni Kirana Muti.</p> 
+    </footer> 
+</body> 
+</html>
